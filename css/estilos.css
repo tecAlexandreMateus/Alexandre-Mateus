@@ -1,0 +1,40 @@
+body {
+    background: blue; /* muda de cor do fundo */ 
+    /* background-image: url(aqui vai a url da imagem); colca uma imagem no fundo */
+    /* backgrond-size: 50px 500px; caso vc coloque uma imagem isso definira a largura e altura, respectivamente */
+    /* px seria unidade de medida em pixels, pode ser usado 100vh q seria para daptar para a porcentagem de cada tela, e pode ser usado o auto q seria automático ou seja ñ deformaria a imagem*/
+    font-family: Arial;
+  }
+  
+  .menu {  
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex; /* coloca os links um do lado do outro */
+    justify-content: space-around; /* coloca um espaçamento entre os links */
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: black; /* muda a cor da fonte dos links */
+    /* test-decoration: none; tira o sublinhado dos links */
+  }
+  
+  a:hover { /* hover tem haver com passar o mouse me emcima de um link */
+    font-weight: bold; /* deixa em negrito */
+    text-decoration: none; /*  tira o sublinhado*/
+  }
+  
+  .site-title,
+  .site-subtitle{ /* modificações q englobam o titulo e subtitulo */
+    color: black; /* muda a cor da fonte */
+    text-align: center; /* centraliza a fonte */
+  }
+  
+  .site-subtitle { /*modificações do subtitulo*/
+    font-style: italic;
+  }
